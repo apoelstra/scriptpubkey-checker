@@ -1,0 +1,32 @@
+[root]
+name = "scriptpubkey-checker"
+version = "0.0.1"
+dependencies = [
+ "bitcoin 0.0.1 (git+https://github.com/apoelstra/rust-bitcoin.git#38f8132067bad2ea83a5a0bd956d266cf3b6e5b9)",
+ "zmq 0.5.1 (git+https://github.com/erickt/rust-zmq.git#e3fa6192ed6808d0c870449fbe6fbebda2c8c3fa)",
+]
+
+[[package]]
+name = "bitcoin"
+version = "0.0.1"
+source = "git+https://github.com/apoelstra/rust-bitcoin.git#38f8132067bad2ea83a5a0bd956d266cf3b6e5b9"
+dependencies = [
+ "bitcoin-secp256k1-rs 0.0.1 (git+https://github.com/apoelstra/bitcoin-secp256k1-rs.git#059c72aa60149d3d58d2aec1d7afd3a083e81e67)",
+ "rust-crypto 0.1.0 (git+https://github.com/DaGenix/rust-crypto.git#44317cac3c4b36a95ebd5654acbf0e1fff9c4b2e)",
+]
+
+[[package]]
+name = "bitcoin-secp256k1-rs"
+version = "0.0.1"
+source = "git+https://github.com/apoelstra/bitcoin-secp256k1-rs.git#059c72aa60149d3d58d2aec1d7afd3a083e81e67"
+
+[[package]]
+name = "rust-crypto"
+version = "0.1.0"
+source = "git+https://github.com/DaGenix/rust-crypto.git#44317cac3c4b36a95ebd5654acbf0e1fff9c4b2e"
+
+[[package]]
+name = "zmq"
+version = "0.5.1"
+source = "git+https://github.com/erickt/rust-zmq.git#e3fa6192ed6808d0c870449fbe6fbebda2c8c3fa"
+

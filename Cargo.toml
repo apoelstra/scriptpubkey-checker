@@ -1,0 +1,13 @@
+[package]
+
+name = "scriptpubkey-checker"
+version = "0.0.1"
+authors = ["Andrew Poelstra <apoelstra@wpsoftware.net>"]
+
+[dependencies.zmq]
+git = "https://github.com/erickt/rust-zmq.git"
+
+[dependencies.bitcoin]
+git = "https://github.com/apoelstra/rust-bitcoin.git"
+
+
